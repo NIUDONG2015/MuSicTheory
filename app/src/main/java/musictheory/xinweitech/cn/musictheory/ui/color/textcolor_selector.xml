@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--android:state_checked  指的是 选中 还是没选中  表示 是否选中的状态-->
+    <item android:state_focused="true" android:color="@color/colorwhite"></item>
+    <item android:state_pressed="true" android:color="@color/colorwhite"></item>
+    <item android:color="@color/lang_font_click"/>
+</selector>

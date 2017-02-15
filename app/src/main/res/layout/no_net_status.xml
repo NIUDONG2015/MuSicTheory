@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/ll_no_netstatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/iv_network"
+            android:layout_width="120px"
+            android:layout_height="120px"
+            android:layout_gravity="center"
+            android:src="@drawable/hint_nonet" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40px"
+            android:text="@string/unable_to_connect_to_the_network"
+            android:textColor="#555555"
+            android:textSize="30px" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15px"
+            android:text="@string/please_check_your_network_Settings"
+            android:textColor="#cccccc"
+            android:textSize="22px" />
+
+        <!--       <Button
+                   android:id="@+id/reset_load"
+                   android:layout_width="180px"
+                   android:layout_height="wrap_content"
+                   android:layout_marginTop="30px"
+                   android:text="重新加载"
+                   android:textColor="#000"
+                   android:textSize="22px" />-->
+
+    </LinearLayout>
+
+
+</FrameLayout>

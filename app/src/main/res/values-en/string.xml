@@ -1,0 +1,193 @@
+<resources
+
+    xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+    <string name="app_name">MusicTheory</string>
+
+
+    <!--英文字符串-->
+    <string name="pre_refresh_data">refresh_data</string>
+    <!--HomeActivity-->
+    <string name="en_email">emailName</string>
+    <string name="offline">FORCE_OFFLINE</string>
+    <string name="user_email_name">zhangsan123@163.com</string>
+    <string name="ok">OK</string>
+    <string name="no_edit_bg">@null</string>
+
+
+    <!--EngLish-->
+
+
+    <!--<string name="home_detail">五线谱的每一行或空格表示键盘上的白色键。</string>-->
+    <!--<string name="home_detail2">五线谱线谱号环绕（图中红色）称为G。放在这条</string>-->
+    <!--<string name="home_detail22">线上的任何注释都变为G</string>-->
+    <string name="let_me_see">&#160;&#160;&#160;Let me see...</string>
+    <string name="logout_current_account">&#160;Cancel current account?</string>
+    <string name="en_checkbox">CheckBox</string>
+    <string name="stay_tuned_for_our">Stay tuned for our</string>
+    <string name="take_you_retrieve_password">Find Password</string>
+    <string name="first_login_go_reg">For the first time log in, go to register</string>
+    <string name="check_the_account_information_valid">Check the account information is valid</string>
+    <string name="email_or_pwd_erro">Email or&#160;Password error...</string>
+    <string name="email_verfiy_erro">Email address verification is not passed</string>
+    <string name="email_reg">Register Email</string>
+    <string name="reg_ckeck">Email Verify</string>
+    <string name="no_verify">no verify</string>
+    <string name="go_verify">verify ok</string>
+    <string name="music_theory">Music Theory</string>
+    <string name="load_fail">Failure load resources</string>
+    <string name="email_verify">Email has validation</string>
+    <string name="like_us_score_bonus">Like us, Score bonus ~</string>
+    <string name="unable_to_connect_to_the_network">Unable to connect to the network</string>
+    <string name="please_check_your_network_Settings">Please check your network Settings</string>
+
+    <string name="check_update">Current is the latest version</string>
+    <string name="check_the_upgrade">Check the upgrade</string>
+    <string name="i_is_grasp">I have mastered</string>
+    <string name="download_music_theory">Download APP, improve your ability of seeing and hearing ear</string>
+
+
+    <string name="internet_conn_success">Network connection is successful</string>
+    <string name="internet_conn_erro">Network connection is fail</string>
+
+    <string name="login_success">Login success</string>
+    <string name="log_out">Log out</string>
+    <!--2.12-->
+    <string name="configure_old_pwd_and_new_number">Enter original pwd and new pwd</string>
+    <string name="the_new_password_more_than_six">At least six password inputs</string>
+
+    <!-- LoginActivity -->
+    <string name="login">Log in</string>
+    <string name="forge_password">Forget the Password&#160;?</string>
+    <string name="user_register">Registered User</string>
+    <string name="password_hint">Least input 6 password </string>
+    <string name="no_username_or_password">Please iput complete account number and password</string>
+    <string name="wrong_username_or_password">Account or password error</string>
+
+    <string name="pwd">Pawd</string>
+    <string name="please_set_pwd"> Set your password</string>
+    <string name="please_set_new_pwd">Set a new password</string>
+
+
+    <!--HomeDetailActivity-->
+    <string name="selected">Has been selected</string>
+    <string name="no_selected">unchecked</string>
+
+    <string name="commit">Commit</string>
+
+
+    <!-- RegisterActivity -->
+    <string name="register">Register</string>
+    <string name="reg_ok_go_login">Register is successful, to log in</string>
+    <string name="welcome_login">Welcome Login</string>
+    <string name="input_email_add">Enter the email address</string>
+    <string name="input_reg_email">Enter register email</string>
+    <string name="email">Email</string>
+    <string name="input_password">Enter password</string>
+    <string name="input_pre_password"> Enter original password</string>
+    <string name="reg_is_ok">Indicates that you agree to registration&#160;</string>
+    <string name="music_http">Sightsinging practice ear user agreement</string>
+    <string name="change_pwd"> Change Password</string>
+    <string name="confirm2">Confirm</string>
+
+    <string name="register_no_username">Please enter the account</string>
+
+
+    <string name="register_invalid_username">Please enter the correct email</string>
+    <string name="register_invalid_password">6-18 password input</string>
+    <string name="register_username_exist">User name already exists</string>
+
+    <string name="register_has_accourt">Existing account&#160;？</string>
+    <string name="send_success">Send Success</string>
+
+    <string name="cancel">Cancel</string>
+    <string name="confirm_exit">Determine the exit&#160;？</string>
+    <string name="pick"> choose</string>
+    <string name="my">My</string>
+
+    <string name="network_error">Network fault</string>
+    <string name="download_is_in_progress">Downloading</string>
+    <string name="start_download"> Download Start...</string>
+    <string name="download_error">Download fail, please try again later</string>
+    <string name="download_erro">Download fail</string>
+
+    <!-- ChangePassWordActivity 1.18-->
+    <string name="success_modify">Modify successfully</string>
+    <string name="reset_password"> Reset Password</string>
+    <string name="next_go">Next&#160;&#160;Step</string>
+    <string name="reset_password_username_not_exist">User name does not exist</string>
+    <string name="reset_password_success">Successful operation</string>
+    <string name="reset_password_send_your_email">The reset password link send to your email</string>
+    <string name="verification_link_has_been_sent_to_your_mailbox">Verification link send to your mailbox</string>
+    <string name="personal_data_title1"> About Me</string>
+    <string name="personal_data_title2">Add a new user</string>
+    <string name="download_complete_click_install">Download is complete, click install</string>
+    <string name="download_complete">Download is complete</string>
+    <string name="io_stream_exception">IO stream exception</string>
+
+    <!--2017.2.7-->
+    <!--RegProtoco H5-->
+
+    <string name="user_protocol">User Protocol</string>
+    <string name="about_us">About Us</string>
+    <string name="download_app">Download</string>
+
+    <!--Net Status-->
+    <string name="Network_request_failed_please_try_again_after_checking_the_network">Network request failed try again checking Net</string>
+
+    <string name="head_portrait">Head</string>
+    <string name="nikename">Nickname</string>
+    <string name="gender">性别</string>
+    <string name="not_filled">未填写</string>
+    <string name="success_save">保存成功</string>
+
+    <string name="gender_man"> Sex</string>
+    <string name="gender_woman">Woman</string>
+    <string name="take_pictures"> Take photos</string>
+    <string name="upload_form_phone">From the phone photo albums to upload</string>
+    <!--2.11-->
+    <string name="multi_lang">Multi&#160;Language</string>
+
+    <!-- MyManageActivity -->
+
+    <string name="latest_version">This version is the latest version</string>
+    <string name="version_error">Failed to get version information</string>
+    <string name="update_title">Found the new version</string>
+    <string name="update_confirm">Upgrade immediately</string>
+
+
+    <!--Reader-->
+    <string name="activity_setting_title">Settings</string>
+    <string name="cache_size">Cache size:</string>
+    <string name="common_i_know">I see</string>
+    <string name="common_loading">Loading</string>
+    <string name="common_loading_error">Loading error,please check your network!</string>
+    <string name="common_view_loading">Loading hardly…</string>
+    <string name="common_view_loading_ok">Load successfully</string>
+    <string name="common_view_release">Release to load</string>
+    <string name="comon_retry">Retry</string>
+    <string name="fragment_video_get_url">Getting player address…</string>
+    <string name="fragment_video_get_url_error">Get player address fail!</string>
+    <string name="help_and_suggest">Help and suggestion</string>
+    <string name="re_request_permission">No permission,Nothing to do!</string>
+    <string name="share">Share to</string>
+    <string name="toast_wifi_refresh_data">Data will not be load because no wifi!</string>
+    <string name="about">about</string>
+    <string name="update_description">The latest version %1$s is available of my app!\nReleaseNote:\n%2$s</string>
+    <string name="update_button">Update now</string>
+    <string name="update_not_show">Huh, not interested</string>
+    <string name="update_no_update">Update not available</string>
+    <string name="update_no_update_description">No update available. Check for updates again later!</string>
+    <string name="common_cancel">Cancel</string>
+    <string name="common_load_complete">Load success</string>
+    <string name="common_load_more">Load more</string>
+    <string name="common_refresh_complete">Refresh complete</string>
+    <string name="common_swipe_to_load_more">Swipe to load more</string>
+    <string name="common_swipe_to_refresh">Swipe to refresh</string>
+    <string name="common_set_read">Set as read</string>
+    <string name="common_set_unread">Set as unread</string>
+    <string name="night_night">Night Mode</string>
+
+</resources>
+
+
+

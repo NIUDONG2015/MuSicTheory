@@ -1,0 +1,162 @@
+<resources
+    xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation"
+    >
+    <string name="app_name">乐理</string>
+
+
+    <!--英文字符串-->
+    <string name="en_checkbox" translatable="false">CheckBox</string>
+    <string name="pre_refresh_data" translatable="false">refresh_data</string>
+    <!--HomeActivity-->
+    <string name="en_email" translatable="false">emailName</string>
+    <string name="offline" translatable="false">FORCE_OFFLINE</string>
+    <string name="user_email_name" translatable="false">zhangsan123@163.com</string>
+    <string name="ok" translatable="false">OK</string>
+    <string name="no_edit_bg" translatable="false">@null</string>
+
+
+    <!--文字字符串-->
+
+
+    <string name="home_detail">五线谱的每一行或空格表示键盘上的白色键。</string>
+    <string name="home_detail2">五线谱线谱号环绕（图中红色）称为G。放在这条</string>
+    <string name="home_detail22">线上的任何注释都变为G</string>
+    <string name="let_me_see">&#160;&#160;&#160;让我想想...</string>
+    <string name="logout_current_account">&#160;注销当前账号?</string>
+
+    <string name="stay_tuned_for_our">敬请期待！</string>
+    <string name="take_you_retrieve_password">带您找回密码</string>
+    <string name="first_login_go_reg">首次登陆，去注册</string>
+    <string name="check_the_account_information_valid">检查账号信息是否有效...</string>
+    <string name="email_or_pwd_erro">邮箱或密码有误...</string>
+    <string name="email_verfiy_erro">邮箱地址验证未通过</string>
+    <string name="email_reg">邮箱注册</string>
+    <string name="reg_ckeck">邮箱验证</string>
+    <string name="no_verify">未验证</string>
+    <string name="go_verify">立即验证</string>
+    <string name="music_theory">乐理知识</string>
+    <string name="load_fail">加载资源失败</string>
+    <string name="email_verify">已验证</string>
+    <string name="like_us_score_bonus">喜欢我们，打分奖励~</string>
+
+    <string name="check_update">当前已是最新版本！</string>
+    <string name="i_is_grasp">我已掌握</string>
+    <string name="download_music_theory">下载视唱练耳APP,提高你的视听练耳能力</string>
+
+
+    <string name="internet_conn_success">网络连接成功</string>
+    <string name="internet_conn_erro">网络连接失败</string>
+
+    <string name="login_success">登录成功</string>
+    <string name="log_out">退出登录</string>
+    <string name="home_detail3">五线谱线的每一行或空格表示键盘上的白色建。</string>
+    <string name="home_detail4">五线谱线的每一行或空格表示键盘上的白色建。</string>
+    <string name="unable_to_connect_to_the_network">无法连接到网络</string>
+    <string name="please_check_your_network_Settings">请检查您的网络设置</string>
+
+    <!-- LoginActivity -->
+    <string name="login">登录</string>
+    <string name="forge_password">忘记密码?</string>
+    <string name="user_register">注册用户</string>
+    <string name="username_hint">手机号/邮箱</string>
+    <string name="password_hint">至少输入6位密码</string>
+    <string name="no_username_or_password">请填写完整账号和密码</string>
+    <string name="wrong_username_or_password">账号或密码错误</string>
+
+    <string name="pwd">密码</string>
+    <string name="please_set_pwd">请设置密码</string>
+    <string name="please_set_new_pwd">请设置新密码</string>
+
+
+    <!--HomeDetailActivity-->
+    <string name="selected">已选中</string>
+    <string name="no_selected">未选中</string>
+
+    <string name="commit">提交</string>
+
+
+    <!-- RegisterActivity -->
+    <string name="register">注册</string>
+    <string name="reg_ok_go_login">注册成功，去登录</string>
+    <string name="welcome_login">欢迎登录</string>
+    <string name="input_email_add">请输入邮箱地址</string>
+    <string name="input_reg_email">请输入注册邮箱</string>
+    <string name="email">邮箱</string>
+    <string name="input_password">请输入密码</string>
+    <string name="input_pre_password">请输入原密码</string>
+    <string name="reg_is_ok">注册即表示您同意&#160;</string>
+    <string name="music_http">视唱练耳用户协议</string>
+    <string name="change_pwd">修改密码</string>
+    <string name="confirm2">确定</string>
+
+    <string name="register_no_username">请输入账号</string>
+
+
+    <string name="register_invalid_username">请输入正确的邮箱</string>
+    <string name="register_invalid_password">请输入6-18位密码</string>
+    <string name="register_username_exist">用户名已存在</string>
+
+    <string name="register_has_accourt">已有账号？</string>
+    <string name="send_success">发送成功</string>
+
+    <string name="cancel">取消</string>
+    <string name="confirm_exit">确定退出当前账号&#160;？</string>
+    <string name="pick">选取</string>
+    <string name="my">我的</string>
+    <string name="multi_lang">多语言</string>
+
+    <string name="network_error">网络故障</string>
+    <string name="download_is_in_progress">正在下载</string>
+    <string name="start_download">开始下载...</string>
+    <string name="download_error">下载失败，请稍后再试</string>
+    <string name="download_erro">下载失败</string>
+    <string name="load_photo_error">下载照片失败，错误码为：</string>
+    <string name="load_photo_url_error">获取云端照片url失败，错误码为：</string>
+    <string name="upload_photo_error">上传头像失败，错误码为：</string>
+
+    <!-- ChangePassWordActivity 1.18-->
+    <string name="success_modify">修改成功</string>
+    <string name="reset_password">重置密码</string>
+    <string name="next_go">下一步</string>
+    <string name="reset_password_username_not_exist">用户名不存在</string>
+    <string name="reset_password_success">重置密码成功</string>
+    <string name="reset_password_send_your_email">重置密码链接已经发送至您的邮箱</string>
+    <string name="verification_link_has_been_sent_to_your_mailbox">验证链接已经发送至您的邮箱</string>
+
+    <string name="personal_data_title1">个人资料</string>
+    <string name="personal_data_title2">添加新用户</string>
+    <string name="download_complete_click_install">下载完成,点击安装</string>
+    <string name="download_complete">下载完成</string>
+    <string name="io_stream_exception">IO流异常</string>
+
+
+    <string name="head_portrait">头像</string>
+    <string name="nikename">昵称</string>
+    <string name="gender">性别</string>
+    <string name="not_filled">未填写</string>
+    <string name="success_save">保存成功</string>
+
+    <string name="gender_man">男</string>
+    <string name="gender_woman">女</string>
+    <string name="take_pictures">拍照</string>
+    <string name="upload_form_phone">从手机相册上传</string>
+
+    <!-- MyManageActivity -->
+
+    <string name="check_the_upgrade">检查升级</string>
+    <string name="latest_version">此版本已是最新版本</string>
+    <string name="version_error">获取版本信息失败</string>
+    <string name="update_title">发现新版本</string>
+    <string name="update_confirm">立即升级</string>
+    <string name="configure_old_pwd_and_new_number">输入原密码和新密码</string>
+    <string name="the_new_password_more_than_six">至少密码输入6位</string>
+    <string name="Network_request_failed_please_try_again_after_checking_the_network">网络请求失败，请检查网络后重试</string>
+
+    <!--RegProtoco H5-->
+    <string name="user_protocol">用户协议</string>
+    <string name="about_us">关于我们</string>
+
+    <string name="download_app">下载</string>
+
+
+</resources>

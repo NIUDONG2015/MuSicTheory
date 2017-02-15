@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/item"
+    android:layout_width="match_parent"
+    android:layout_height="100px"
+    android:background="@drawable/btn_user">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <ImageView
+            android:id="@+id/iv_item"
+            android:layout_width="50px"
+            android:layout_height="50px"
+            android:layout_alignParentLeft="true"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="30px"
+
+            android:src="@drawable/home_note_ico01" />
+
+        <TextView
+            android:id="@+id/tv_home_title"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="70px"
+            android:padding="33px"
+            android:text="五线谱、铺好和附加线"
+            android:textColor="#333333"
+            android:textSize="28px" />
+
+
+        <ImageView
+            android:id="@+id/ib_status"
+            android:layout_width="50px"
+            android:layout_height="50px"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            android:layout_marginRight="30px"
+            android:background="@drawable/btn_user"
+            android:src="@drawable/list_grasp"
+            android:visibility="invisible">
+
+
+        </ImageView>
+
+
+        <View
+
+            android:id="@+id/view_line"
+            style="@style/DividerHorizontal"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="30px"
+            android:layout_marginRight="30px"
+            android:visibility="gone" />
+
+    </RelativeLayout>
+</LinearLayout>

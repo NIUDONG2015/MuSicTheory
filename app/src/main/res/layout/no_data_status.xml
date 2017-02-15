@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/ll_no_netstatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/iv_network"
+            android:layout_width="120px"
+            android:layout_height="120px"
+            android:layout_gravity="center"
+            android:src="@drawable/hint_error" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="22px"
+            android:text="@string/load_fail"
+            android:textColor="#cccccc"
+            android:textSize="24px" />
+
+        <!--       <Button
+                   android:id="@+id/reset_load"
+                   android:layout_width="180px"
+                   android:layout_height="wrap_content"
+                   android:layout_marginTop="30px"
+                   android:text="重新加载"
+                   android:textColor="#000"
+                   android:textSize="22px" />-->
+
+    </LinearLayout>
+
+
+</FrameLayout>

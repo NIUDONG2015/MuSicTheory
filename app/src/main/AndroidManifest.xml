@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="musictheory.xinweitech.cn.musictheory"> <!-- 友盟相关权限配置 -->
+    <uses-sdk android:minSdkVersion="16" />
+
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!-- Bugly相关权限 -->
+    <uses-permission android:name="android.permission.READ_LOGS" />
+    <!--？-->
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <!--保存资源到SD卡-->
+
+    <!--个推配置可选权限-->
+    <!-- iBeancon功能所需权限 -->;
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <!-- 个推3.0电子围栏功能所需权限 -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+
+    <!-- 获取logcat日志 -->
+    <application
+        android:name=".MusicApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/logo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/no_title">
+
+        <!-- 设置默认屏幕分辨率 -->
+        <meta-data
+            android:name="design_width"
+            android:value="720" />
+        <meta-data
+            android:name="design_height"
+            android:value="1280" />
+
+        <activity android:name=".ui.activity.MainActivity" />
+        <activity
+            android:name=".ui.activity.SplashActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/welcomeTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ui.activity.RegisterActivity" />
+        <activity android:name=".ui.activity.ChangePassWordActivity" />
+        <activity
+            android:name=".ui.activity.LoginActivity"
+            android:launchMode="singleTask"
+             />
+        <activity
+            android:name=".ui.activity.UserInfoActivity"
+
+            android:launchMode="singleTask" />
+        <activity android:name=".ui.activity.ResetPassWordActivity" />
+        <activity android:name=".ui.activity.MultiLanguageActivity" />
+        <activity
+            android:name=".ui.activity.HomeDetailActivity"
+            android:configChanges="locale" />
+        <activity android:name=".ui.activity.AdvertListActivity" />
+        <activity android:name=".ui.activity.AboutUsActivity" />
+        <activity android:name=".ui.activity.RegProtocolActivity" />
+        <!--buglyactivity-->
+
+        <activity
+            android:name="com.tencent.bugly.beta.ui.BetaActivity"
+            android:theme="@android:style/Theme.Translucent" />
+        <!--个推的服务-->
+        <service
+            android:name=".service.PushService"
+            android:exported="true"
+            android:label="PushService"
+            android:process=":pushservice"></service>
+
+        <service android:name=".service.IntentService" />
+
+
+        <activity
+            android:name=".ui.activity.HomeActivity"
+            android:launchMode="singleTask" />
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="${applicationId}.fileProvider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths" />
+        </provider>
+
+
+        <!--杀死进程-->
+        <service android:name=".service.killSelfService" />
+        <!--  android:configChanges="locale"-->
+        <!--暂时不用
+
+            <receiver android:name=".receiver.MyReceiver">
+                    <intent-filter>
+                        <action android:name="niudong" />
+                    </intent-filter>
+                </receiver>-->
+        <!-- 友盟统计 -->
+        <meta-data
+            android:name="UMENG_APPKEY"
+            android:value="589831be8630f50f51000a2f" />
+        <!-- 渠道名称 -->
+        <!--
+              <meta-data
+              android:name="UMENG_CHANNEL"
+              android:value="${UMENG_CHANNEL_ID}" />
+        -->
+
+    </application>
+
+</manifest>

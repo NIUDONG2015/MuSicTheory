@@ -1,0 +1,4 @@
+Applications Memory Usage (kB):
+Uptime: 48180379 Realtime: 67514035
+
+** MEMINFO in pid 30152 [musictheory.xinweitech.cn.musictheory] **
